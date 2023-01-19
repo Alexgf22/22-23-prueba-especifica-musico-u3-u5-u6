@@ -1,8 +1,3 @@
-class Concierto {
-}
-
-
-
 fun main() {
     val interprete1 = Pianista()
     val interprete2 = Violinista()
