@@ -7,4 +7,6 @@ fun main() {
         partitura = arrayOf<Nota?>(Nota.DO, Nota.FA, Nota.FA, Nota.MI)
     }
     pianista.interpretar()
+
+    val interpretes = mutableListOf<Interprete>()
 }

@@ -1,4 +1,4 @@
-class Violinista(unaPartitura: Array<Nota?> = arrayOfNulls<Nota?>(0)) {
+class Violinista(unaPartitura: Array<Nota?> = arrayOfNulls<Nota?>(0)): Interprete {
 
     private val violin = Violin()
     var partitura: Array<Nota?> = unaPartitura
@@ -16,8 +16,12 @@ class Violinista(unaPartitura: Array<Nota?> = arrayOfNulls<Nota?>(0)) {
         i("Violinista.init", "Inicializado el Violinista")
     }
 
-    fun interpretar() {
+    override fun interpretar() {
         i("Violinista.intepretar","Interpretando una partitura")
         violin.play()
+    }
+
+    override fun play() {
+        TODO("Not yet implemented")
     }
 }
