@@ -1,7 +1,7 @@
 open class Instrumento {
-    var melodia: Array<Nota?> = arrayOfNulls(0)
+    open var melodia: Array<Nota?> = arrayOfNulls(0)
     open fun play(melodia: Array<Nota>) {}
-    fun reset() {
+    open fun reset() {
         melodia = arrayOfNulls(0)
     }
     fun incorporaMelodia(melodia: Array<Nota?>) {

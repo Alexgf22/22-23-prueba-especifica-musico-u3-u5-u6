@@ -1,7 +1,7 @@
 class Violinista(unaPartitura: Array<Nota?> = arrayOfNulls<Nota?>(0)): Interprete {
 
     private val violin = Violin()
-    var partitura: Array<Nota?> = unaPartitura
+    private var partitura: Array<Nota?> = unaPartitura
         set(value) {
             field = value
             violin.reset()
@@ -16,12 +16,13 @@ class Violinista(unaPartitura: Array<Nota?> = arrayOfNulls<Nota?>(0)): Interpret
         i("Violinista.init", "Inicializado el Violinista")
     }
 
-    override fun interpretar() {
+
+    override fun interpretar(partitura: Array<Nota?>) {
         i("Violinista.intepretar","Interpretando una partitura")
-        violin.play()
+        //violin.play(melodia)
     }
 
-    override fun play() {
+    override fun play(instrumento: Instrumento) {
         TODO("Not yet implemented")
     }
 }
