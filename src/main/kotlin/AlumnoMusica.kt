@@ -8,7 +8,8 @@ class AlumnoMusica(
     override fun interpretar(partitura: Array<Nota?>) {
         i("AlumnoMusica.intepretar","####### - SOY AlUMNO DE MUSICA" +
                 "===> Tocando guitarra")
-        instrumento1.play(partitura1)
+        //instrumento1.play(partitura1)
+
     }
 
 
