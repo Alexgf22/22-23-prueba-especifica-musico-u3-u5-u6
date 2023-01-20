@@ -4,15 +4,12 @@ class Violin : Instrumento() {
     //tabla que guarda las notas a interpretar
     override var melodia: MutableList<Nota?> = mutableListOf()
 
-    fun incorporaNota(nota: Nota) {
-        melodia.add(nota)
-    }
-
     override fun reset() = melodia.clear()
 
     //Recorreremos las notas y las interpretaremos de la forma específica del piano.
     override fun play(melodia: Array<Nota?>) {
-        i("Violin.play","Tocando violin")
+        i("Violin.play","####### - SOY VIOLINISTA" +
+                "===> Tocando violin")
         melodia.forEach { nota ->
             when (nota) {
                 Nota.DO -> print("doggg ")

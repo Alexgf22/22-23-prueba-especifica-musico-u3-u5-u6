@@ -3,15 +3,12 @@ class Guitarra : Instrumento() {
 
     override var melodia: MutableList<Nota?> = mutableListOf()
 
-    fun incorporaNota(nota: Nota) {
-        melodia.add(nota)
-    }
-
     override fun reset() = melodia.clear()
 
 
     override fun play(melodia: Array<Nota?>) {
-        i("Piano.play","Tocando guitarra")
+        i("Guitarra.play","####### - SOY AlUMNO DE MUSICA" +
+                "===> Tocando guitarra")
         melodia.forEach { nota ->
             when (nota) {
                 Nota.DO -> print("dooo ")
