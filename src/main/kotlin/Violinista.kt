@@ -1,28 +1,14 @@
-class Violinista(unaPartitura: Array<Nota?> = arrayOfNulls<Nota?>(0)): Interprete {
+class Violinista(
+    instrumento: Instrumento,
+    partitura: Array<Nota?> = arrayOfNulls(0)): Musico(instrumento,partitura) {
 
-    private val violin = Violin()
-    private var partitura: Array<Nota?> = unaPartitura
-        set(value) {
-            field = value
-            violin.reset()
-            value.forEach { nota ->
-                i("Violinista.setPartitura", "incorpora nota $nota de canción")
-                nota?.let { violin.incorporaNota(nota) }
-            }
-        }
-
-    init {
-        partitura = unaPartitura
-        i("Violinista.init", "Inicializado el Violinista")
-    }
-
+    protected val instrumento1 = instrumento
+    val partitura1 = partitura
 
     override fun interpretar(partitura: Array<Nota?>) {
         i("Violinista.intepretar","Interpretando una partitura")
-        //violin.play(melodia)
+        instrumento1.play(partitura1)
     }
 
-    override fun play(instrumento: Instrumento) {
-        TODO("Not yet implemented")
-    }
+
 }

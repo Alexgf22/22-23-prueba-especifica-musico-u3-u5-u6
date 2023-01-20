@@ -2,16 +2,16 @@
 class Piano : Instrumento() {
 
     //tabla que almacena las notas a interpretar
-    override var melodia: Array<Nota?> = arrayOf()
+    override var melodia: MutableList<Nota?> = mutableListOf()
 
     fun incorporaNota(nota: Nota) {
-        //melodia.add(nota)
+        melodia.add(nota)
     }
 
-    //override fun reset() = melodia.clear()
+    override fun reset() = melodia.clear()
 
     //Recorreremos las notas y las interpretaremos de la forma específica del piano.
-    override fun play(melodia: Array<Nota>) {
+    override fun play(melodia: Array<Nota?>) {
         i("Piano.play","Tocando piano")
         melodia.forEach { nota ->
             when (nota) {
@@ -22,6 +22,7 @@ class Piano : Instrumento() {
                 Nota.SOL -> print("soool ")
                 Nota.LA -> print("laaa ")
                 Nota.SI -> print("siiii ")
+                else -> {}
             }
         }
         println("FIN")

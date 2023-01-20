@@ -1,5 +1,5 @@
 class Guitarra : Instrumento() {
-    override fun play(melodia: Array<Nota>) {
+    override fun play(melodia: Array<Nota?>) {
 
     }
 }
