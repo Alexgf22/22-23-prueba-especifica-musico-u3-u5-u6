@@ -19,7 +19,7 @@ abstract class Musico(instrumento: Instrumento, partitura: Array<Nota?> = arrayO
 
     override fun interpretar(partitura: Array<Nota?>) {
         i("Violinista.intepretar","Interpretando una partitura")
-        //violin.play(melodia)
+        instrumento1.play(partitura)
     }
 
 

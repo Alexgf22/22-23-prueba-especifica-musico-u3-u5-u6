@@ -2,12 +2,14 @@
  *
  */
 open class Instrumento {
-    open var melodia: MutableList<Nota?> = arrayOfNulls(0)
-    open fun play(melodia: Array<Nota?>) {}
+    open var melodia: MutableList<Nota?> = mutableListOf()
+    open fun play(melodia: MutableList<Nota?>) {}
     open fun reset() {
-        melodia = arrayOfNulls(0)
+        melodia = mutableListOf()
     }
-    fun incorporaMelodia(melodia: Array<Nota?>) {
+    fun incorporaMelodia(melodia: MutableList<Nota?>) {
         this.melodia = melodia
     }
+
+    open fun play(melodia: Array<Nota?>) {}
 }

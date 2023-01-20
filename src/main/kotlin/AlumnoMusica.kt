@@ -1,15 +1,15 @@
-class AlumnoMusica(override val melodia: Array<Nota?>) : Interprete {
+class AlumnoMusica(
+    instrumento: Instrumento,
+    partitura: Array<Nota?> = arrayOfNulls(0)) : Interprete {
 
-    var instrumento: Instrumento = Guitarra()
+    protected val instrumento1 = instrumento
+    val partitura1 = partitura
+
     override fun interpretar(partitura: Array<Nota?>) {
-        TODO("Not yet implemented")
+        i("AlumnoMusica.intepretar","####### - SOY AlUMNO DE MUSICA" +
+                "===> Tocando guitarra")
+        instrumento1.play(partitura1)
     }
 
-    override fun play() {
-        TODO("Not yet implemented")
-    }
 
-    override fun play(instrumento: Instrumento) {
-        //instrumento.play(melodia)
-    }
 }

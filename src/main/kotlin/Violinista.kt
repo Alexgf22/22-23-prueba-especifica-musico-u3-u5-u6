@@ -6,7 +6,8 @@ class Violinista(
     val partitura1 = partitura
 
     override fun interpretar(partitura: Array<Nota?>) {
-        i("Violinista.intepretar","Interpretando una partitura")
+        i("Violinista.intepretar","####### - SOY VIOLINISTA" +
+                "===> Tocando violin")
         instrumento1.play(partitura1)
     }
 
