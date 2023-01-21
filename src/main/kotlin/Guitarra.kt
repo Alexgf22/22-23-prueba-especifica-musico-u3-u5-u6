@@ -3,9 +3,8 @@ class Guitarra : Instrumento() {
 
     private var melodia: MutableList<Nota?> = mutableListOf()
 
-    fun play(melodia: Array<Nota?>) {
-        i("Guitarra.play","####### - SOY AlUMNO DE MUSICA" +
-                "===> Tocando guitarra")
+    override fun play(melodia: Array<Nota?>) {
+        i("Guitarra.play","===> Tocando guitarra")
         melodia.forEach { nota ->
             when (nota) {
                 Nota.DO -> print("dooo ")

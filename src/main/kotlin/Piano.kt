@@ -5,9 +5,8 @@ class Piano : Instrumento() {
     private var melodia: MutableList<Nota?> = mutableListOf()
 
     //Recorreremos las notas y las interpretaremos de la forma específica del piano.
-    fun play(melodia: Array<Nota?>) {
-        i("Piano.play","####### - SOY PIANISTA" +
-                "===> Tocando piano")
+    override fun play(melodia: Array<Nota?>) {
+        i("Piano.play", "===> Tocando piano")
         melodia.forEach { nota ->
             when (nota) {
                 Nota.DO -> print("dooo ")

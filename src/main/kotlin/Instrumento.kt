@@ -11,6 +11,6 @@ open class Instrumento() {
         melodia.add(nota)
     }
 
-    /*fun play(melodia: Array<Nota?>) {
-    }*/
+    open fun play(melodia: Array<Nota?>) {
+    }
 }
