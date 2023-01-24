@@ -22,19 +22,20 @@ class Guitarra : Instrumento() {
      * El método play sobreescrito de la superclase se le pasa por parámetro la
      * melodia y a continuación va recorriendo la lista y según la nota que sea
      * la interpreta específicamente para la guitarra.
+     * @param melodia de tipo Array<Nota?> partitura que puede tener 0 o más notas musicales.
      */
     override fun play(melodia: Array<Nota?>) {
         i("Guitarra.play","===> Tocando guitarra")
         println("===> Tocando guitarra")
         melodia.forEach { nota ->
             when (nota) {
-                Nota.DO -> print("dooo ")
-                Nota.RE -> print("reee ")
-                Nota.MI -> print("miiii ")
-                Nota.FA -> print("faaa ")
-                Nota.SOL -> print("soool ")
-                Nota.LA -> print("laaa ")
-                Nota.SI -> print("siiii ")
+                Nota.DO -> print("dorrr ")
+                Nota.RE -> print("rerrr ")
+                Nota.MI -> print("mirrr ")
+                Nota.FA -> print("farrr ")
+                Nota.SOL -> print("solrrr ")
+                Nota.LA -> print("larrr ")
+                Nota.SI -> print("sirrr ")
                 else -> {}
             }
         }

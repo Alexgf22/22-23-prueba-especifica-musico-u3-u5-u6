@@ -22,6 +22,7 @@ class Violin : Instrumento() {
      * El método play sobreescrito de la superclase se le pasa por parámetro la
      * melodia y a continuación va recorriendo la lista y según la nota que sea
      * la interpreta específicamente para el violín.
+     * @param melodia de tipo Array<Nota?> partitura que puede tener 0 o más notas musicales.
      */
     override fun play(melodia: Array<Nota?>) {
         i("Violin.play","===> Tocando violin")

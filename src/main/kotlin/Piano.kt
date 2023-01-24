@@ -24,6 +24,7 @@ class Piano : Instrumento() {
      * El método play sobreescrito de la superclase se le pasa por parámetro la
      * melodia y a continuación va recorriendo la lista y según la nota que sea
      * la interpreta específicamente para el piano.
+     * @param melodia de tipo Array<Nota?> partitura que puede tener 0 o más notas musicales.
      */
     override fun play(melodia: Array<Nota?>) {
         i("Piano.play", "===> Tocando piano")

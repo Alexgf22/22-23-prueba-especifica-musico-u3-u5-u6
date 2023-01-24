@@ -2,7 +2,7 @@
  * La clase Instrumento es open ya que de ella heredarán las subclases: Guitarra,
  * Violín y Piano. Además tiene los métodos: reset(), incorporaNota() y play().
  */
-open class Instrumento() {
+open class Instrumento {
 
     private var melodia: MutableList<Nota?> = mutableListOf()
 
@@ -26,7 +26,7 @@ open class Instrumento() {
      * El método play es open para que pueda ser sobreescrito por las subclases,
      * se le pasa por parámetro la melodia con las notas correspondientes y se deja
      * el body vacío para que cada clase pueda tener su propio funcionamiento.
-     * @param melodia de tipo Array<Nota?> incluye 0 o más notas del Enum Nota.
+     * @param melodia de tipo Array<Nota?> que puede contener 0 o más notas musicales.
      */
     open fun play(melodia: Array<Nota?>) {
 

@@ -10,11 +10,10 @@ class AlumnoMusica(
     val partitura1 = partitura
 
     /**
-     * El método interpretar se le pasa como parámetro la partitura con las notas
-     * para que el instrumento pueda tocarla.
-     * @param partitura tipo Array<Nota?> incluye las notas correspondientes del Enum.
+     * El método interpretar hace una llamada al método play para que de esa forma el instrumento
+     * pueda interpretar la melodía.
      */
-    override fun interpretar(partitura: Array<Nota?>) {
+    override fun interpretar() {
         i("AlumnoMusica.intepretar","####### - SOY AlUMNO DE MUSICA")
         println("####### - SOY AlUMNO DE MUSICA")
         instrumento1.play(partitura1)
