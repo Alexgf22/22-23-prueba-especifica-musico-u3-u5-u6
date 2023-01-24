@@ -25,6 +25,7 @@ class Guitarra : Instrumento() {
             }
         }
         println()
+        println()
 
     }
 }

@@ -27,5 +27,6 @@ class Piano : Instrumento() {
             }
         }
         println()
+        println()
     }
 }
