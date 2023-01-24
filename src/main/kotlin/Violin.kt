@@ -26,6 +26,6 @@ class Violin : Instrumento() {
                 else -> {}
             }
         }
-        println("FIN")
+
     }
 }

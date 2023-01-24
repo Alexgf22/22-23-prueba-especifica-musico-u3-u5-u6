@@ -24,6 +24,6 @@ class Guitarra : Instrumento() {
                 else -> {}
             }
         }
-        println("FIN")
+
     }
 }
