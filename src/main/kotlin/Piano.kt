@@ -26,6 +26,6 @@ class Piano : Instrumento() {
                 else -> {}
             }
         }
-
+        println()
     }
 }
