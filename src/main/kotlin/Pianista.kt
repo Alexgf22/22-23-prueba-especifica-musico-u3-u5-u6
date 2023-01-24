@@ -2,7 +2,7 @@ class Pianista(
     instrumento: Instrumento,
     partitura: Array<Nota?> = arrayOfNulls(0)): Musico(instrumento,partitura) {
 
-    protected val instrumento1 = instrumento
+    private val instrumento1 = instrumento
     val partitura1 = partitura
 
 
