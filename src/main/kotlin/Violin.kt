@@ -25,6 +25,7 @@ class Violin : Instrumento() {
                 Nota.SI -> print("siggg ")
                 else -> {}
             }
+            println()
         }
         println()
 
