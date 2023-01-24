@@ -1,0 +1,48 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:////PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/index.html
+$dokka.location://main/#/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/main.html
+$dokka.location:/AlumnoMusica///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-alumno-musica/index.html
+$dokka.location:/AlumnoMusica/AlumnoMusica/#Instrumento#kotlin.Array[Nota?]/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-alumno-musica/-alumno-musica.html
+$dokka.location:/AlumnoMusica/interpretar/#/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-alumno-musica/interpretar.html
+$dokka.location:/AlumnoMusica/partitura1/#/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-alumno-musica/partitura1.html
+$dokka.location:/Guitarra///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-guitarra/index.html
+$dokka.location:/Guitarra/Guitarra/#/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-guitarra/-guitarra.html
+$dokka.location:/Guitarra/incorporaNota/#Nota/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-guitarra/incorpora-nota.html
+$dokka.location:/Guitarra/play/#kotlin.Array[Nota?]/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-guitarra/play.html
+$dokka.location:/Instrumento///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-instrumento/index.html
+$dokka.location:/Instrumento/Instrumento/#/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-instrumento/-instrumento.html
+$dokka.location:/Instrumento/incorporaNota/#Nota/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-instrumento/incorpora-nota.html
+$dokka.location:/Instrumento/play/#kotlin.Array[Nota?]/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-instrumento/play.html
+$dokka.location:/Instrumento/reset/#/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-instrumento/reset.html
+$dokka.location:/Interprete///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-interprete/index.html
+$dokka.location:/Interprete/interpretar/#/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-interprete/interpretar.html
+$dokka.location:/Musico///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-musico/index.html
+$dokka.location:/Musico/Musico/#Instrumento#kotlin.Array[Nota?]/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-musico/-musico.html
+$dokka.location:/Musico/interpretar/#/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-musico/interpretar.html
+$dokka.location:/Nota.DO///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-nota/-d-o/index.html
+$dokka.location:/Nota.FA///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-nota/-f-a/index.html
+$dokka.location:/Nota.LA///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-nota/-l-a/index.html
+$dokka.location:/Nota.MI///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-nota/-m-i/index.html
+$dokka.location:/Nota.RE///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-nota/-r-e/index.html
+$dokka.location:/Nota.SI///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-nota/-s-i/index.html
+$dokka.location:/Nota.SOL///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-nota/-s-o-l/index.html
+$dokka.location:/Nota///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-nota/index.html
+$dokka.location:/Pianista///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-pianista/index.html
+$dokka.location:/Pianista/Pianista/#Instrumento#kotlin.Array[Nota?]/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-pianista/-pianista.html
+$dokka.location:/Pianista/interpretar/#/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-pianista/interpretar.html
+$dokka.location:/Pianista/partitura1/#/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-pianista/partitura1.html
+$dokka.location:/Piano///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-piano/index.html
+$dokka.location:/Piano/Piano/#/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-piano/-piano.html
+$dokka.location:/Piano/incorporaNota/#Nota/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-piano/incorpora-nota.html
+$dokka.location:/Piano/play/#kotlin.Array[Nota?]/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-piano/play.html
+$dokka.location:/Violin///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-violin/index.html
+$dokka.location:/Violin/Violin/#/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-violin/-violin.html
+$dokka.location:/Violin/incorporaNota/#Nota/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-violin/incorpora-nota.html
+$dokka.location:/Violin/play/#kotlin.Array[Nota?]/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-violin/play.html
+$dokka.location:/Violinista///PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-violinista/index.html
+$dokka.location:/Violinista/Violinista/#Instrumento#kotlin.Array[Nota?]/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-violinista/-violinista.html
+$dokka.location:/Violinista/interpretar/#/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-violinista/interpretar.html
+$dokka.location:/Violinista/partitura1/#/PointingToDeclaration/22-23-prueba-especifica-musico-u3-u5-u6/[root]/-violinista/partitura1.html
+
+
