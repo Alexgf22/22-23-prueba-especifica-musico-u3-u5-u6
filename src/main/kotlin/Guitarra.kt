@@ -11,6 +11,7 @@ class Guitarra : Instrumento() {
 
     override fun play(melodia: Array<Nota?>) {
         i("Guitarra.play","===> Tocando guitarra")
+        println("===> Tocando guitarra")
         melodia.forEach { nota ->
             when (nota) {
                 Nota.DO -> print("dooo ")

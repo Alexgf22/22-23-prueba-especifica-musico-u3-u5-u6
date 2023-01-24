@@ -13,6 +13,7 @@ class Piano : Instrumento() {
     //Recorreremos las notas y las interpretaremos de la forma específica del piano.
     override fun play(melodia: Array<Nota?>) {
         i("Piano.play", "===> Tocando piano")
+        println("===> Tocando piano")
         melodia.forEach { nota ->
             when (nota) {
                 Nota.DO -> print("dooo ")
